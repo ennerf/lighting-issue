@@ -14,8 +14,9 @@ import javafx.stage.Stage;
 public class Lighting3d extends Application {
 
     public void start(Stage stage) {
-        stage.setTitle(String.format("%s + Java %s + JavaFX %s",
+        stage.setTitle(String.format("%s (%s) + Java %s + JavaFX %s",
                 System.getProperty("os.name"),
+                System.getProperty("os.version"),
                 System.getProperty("java.version"),
                 System.getProperty("javafx.version")
         ));
